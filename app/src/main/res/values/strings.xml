@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">project1</string>
+    <string name="username">username</string>
+    <string name="gori">გორი</string>
+     <string name="qutaisi">ქუთაისი</string>
+    <string name="batumi">ბათუმი</string>
+   <string name="tbilisi">თბილისი</string>
+  <string name="miuxen">მიუხენი</string>
+   <string name="berlin">ბერლინი</string>
+  <string name="hamburg">ჰამბურგი</string>
+   <string name="dortmund">დორტმუნდი</string>
+   <string name="london">ლონდონი</string>
+   <string name="manchester">მანჩესტერი</string>
+   <string name="liverpul">ლივერპული</string>
+   <string name="birmingem">ბირმინგემი</string>
+    <string name="riodejaneiro">რიო დეჯანეირო</string>
+    <string name="sanpaulo">სან პაულო</string>
+    <string name="brazil">ბრაზილია</string>
+    <string name="salvador">სალვადორი</string>
+
+
+  </resources>

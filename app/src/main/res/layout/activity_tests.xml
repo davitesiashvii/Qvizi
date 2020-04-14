@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".TestsActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:text="საქართველოს დედაქალაქი?"
+                android:layout_marginTop="8dp"
+                android:padding="10dp"
+                android:textSize="30dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/gori"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="15dp"
+                android:padding="8dp"
+                android:textSize="25dp"></Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/qutaisi"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="15dp"
+                android:padding="8dp"
+                android:textSize="25dp"></Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/batumi"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="15dp"
+                android:padding="8dp"
+                android:textSize="25dp"></Button>
+
+            <Button
+                android:id="@+id/tbilisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tbilisi"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="15dp"
+                android:padding="8dp"
+                android:onClick="Addpoint"
+                android:textSize="25dp"></Button>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:text="ინგლისის დედაქალაქი?"
+                android:layout_marginTop="8dp"
+                android:padding="10dp"
+                android:textSize="30dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/liverpul"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="15dp"
+                android:padding="8dp"
+                android:textSize="25dp"></Button>
+
+            <Button
+                android:id="@+id/london"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/london"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="15dp"
+                android:padding="8dp"
+                android:onClick="Addpoint"
+                android:textSize="25dp"></Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/birmingem"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="15dp"
+                android:padding="8dp"
+                android:textSize="25dp"></Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/manchester"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="15dp"
+                android:padding="8dp"
+                android:textSize="25dp"></Button>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="გერმანიის დედაქალაქი?"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/miuxen"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="15dp"
+                android:padding="8dp"
+                android:textSize="25dp"></Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/dortmund"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="15dp"
+                android:padding="8dp"
+                android:textSize="25dp"></Button>
+
+            <Button
+                android:id="@+id/berlin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/berlin"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="15dp"
+                android:padding="8dp"
+                android:onClick="Addpoint"
+                android:textSize="25dp"></Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hamburg"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="15dp"
+                android:padding="8dp"
+                android:onClick="Addpoint"
+                android:textSize="25dp"></Button>
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="ბრაზილიის დედაქალაქი?"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/riodejaneiro"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="15dp"
+            android:onClick="Addpoint"
+            android:padding="8dp"
+            android:textSize="25dp"></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sanpaulo"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="15dp"
+            android:padding="8dp"
+            android:textSize="25dp"></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/brazil"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="15dp"
+            android:onClick="Addpoint"
+            android:padding="8dp"
+            android:textSize="25dp"></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/salvador"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="15dp"
+            android:padding="8dp"
+            android:textSize="25dp"></Button>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="see"
+                android:text="shedegi"></Button>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
